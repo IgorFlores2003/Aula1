@@ -1,15 +1,70 @@
 
-.butto {
-  background-color: rgb(56, 189, 212);
-  color: white;
-  padding: 5px 20px;
-  border: 10px;
-  font-size: 16px;
-  margin-left: 40%;
-}
-#Save{
-    width: 100%;
-  padding: 12px 20px;
-  margin: 10px 0;
+* {
   box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:xx-large;
+
+}
+
+ul li:nth-child(odd) {
+  background: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:xx-large;
+
+}
+ul li:hover {
+  background: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:xx-large;
+ 
+}
+ul li.ok {
+  background: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:xx-large;
+  
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input {
+  margin: 0;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.addBtn {
+  padding: 10px;
+  width: 15%;
+  background: #fffdfd;
+  color: rgb(255, 254, 254);
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: rgb(255, 252, 252);
+}
+#bottun{
+  background-color: #1f78fd;
+  margin-left: 40%;
+  margin-top: 10px;
+
+}
+.corpo{background-color:rgb(156, 255, 255)
+
 }
