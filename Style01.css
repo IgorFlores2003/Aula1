@@ -8,12 +8,14 @@ header{
   border: 0%;
   margin: 0%;
   height: 60px;
+  border-style:ridge;
+  border-color: #cf0505ce;
 }
 h1{
   margin: 0%;
   align-self:flex-start;
   margin-left: 40%;
-  color:#491324ce;
+  color:#db8fa7ce;
   font-style:oblique;
 }
 p{
@@ -25,28 +27,39 @@ p{
 ul {
   margin: 0;
   padding: 0;
-  background-color: rgb(17, 179, 219);
+  background: rgb(218, 45, 45);
   font-family: 'Fantasy';
   font-size:xx-large;
+  border-style: ridge;
+  border-color: #cf0505ce;
+  color:rgb(161, 213, 233);
 
 }
 
 ul li:nth-child(odd) {
-  background: rgb(17, 179, 219);
+  background: rgb(218, 45, 45);
   font-family: 'Fantasy';
   font-size:xx-large;
+  border-color: #cf0505ce;
+  color:rgb(161, 213, 233);
 
 }
 ul li:hover {
-  background: rgb(17, 179, 219);
+  background: rgb(218, 45, 45);
   font-family: 'Fantasy';
   font-size:xx-large;
+  border-style: ridge;
+  border-color: #cf0505ce;
+  color:rgb(161, 213, 233);
  
 }
 ul li.ok {
-  background: rgb(17, 179, 219);
+  background: rgb(218, 45, 45);
   font-family: 'Fantasy';
   font-size:xx-large;
+  border-style: ridge;
+  border-color:#cf0505ce;
+  color:rgb(161, 213, 233);
   
 }
 .header:after {
