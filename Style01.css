@@ -1,32 +1,51 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'fantasy';
 }
+header{
+  background-color: #2556a0;
+  border: 0%;
+  margin: 0%;
+  height: 60px;
+}
+h1{
+  margin: 0%;
+  align-self:flex-start;
+  margin-left: 40%;
+  color:#491324ce;
+  font-style:oblique;
+}
+p{
+  margin-left: 42%;
+  font-size: x-large;
+}
+
 
 ul {
   margin: 0;
   padding: 0;
-  background-color: #ddd;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(17, 179, 219);
+  font-family: 'Fantasy';
   font-size:xx-large;
 
 }
 
 ul li:nth-child(odd) {
-  background: #ddd;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(17, 179, 219);
+  font-family: 'Fantasy';
   font-size:xx-large;
 
 }
 ul li:hover {
-  background: #ddd;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(17, 179, 219);
+  font-family: 'Fantasy';
   font-size:xx-large;
  
 }
 ul li.ok {
-  background: #ddd;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgb(17, 179, 219);
+  font-family: 'Fantasy';
   font-size:xx-large;
   
 }
@@ -60,11 +79,12 @@ input {
   background-color: rgb(255, 252, 252);
 }
 #bottun{
-  background-color: #1f78fd;
+  background-color: #2556a0;
   margin-left: 40%;
   margin-top: 10px;
+  margin-bottom: 10px;
 
 }
-.corpo{background-color:rgb(156, 255, 255)
-
+.corpo{background-color:rgb(156, 255, 242);
+margin: 0%;
 }
